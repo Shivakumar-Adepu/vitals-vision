@@ -1,0 +1,132 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Segoe UI",
+      "role": "body"
+    },
+    {
+      "family": "Noto Sans",
+      "role": "body"
+    },
+    {
+      "family": "Helvetica",
+      "role": "body"
+    },
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#59636E",
+    "accent": "#D8B9FF",
+    "background": "#FFFFFF",
+    "textPrimary": "#1F2328",
+    "link": "#D8B9FF"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Segoe UI",
+      "heading": "Segoe UI"
+    },
+    "fontStacks": {
+      "heading": [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji"
+      ],
+      "body": [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji"
+      ],
+      "paragraph": [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji"
+      ]
+    },
+    "fontSizes": {
+      "h1": "32px",
+      "h2": "24px",
+      "body": "14px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "borderRadius": "6px"
+  },
+  "components": {
+    "input": {
+      "background": "#25292E",
+      "textColor": "#FFFFFF",
+      "borderColor": null,
+      "borderRadius": "6px",
+      "borderRadiusCorners": {
+        "topLeft": "6px",
+        "topRight": "6px",
+        "bottomRight": "6px",
+        "bottomLeft": "6px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": "https://github.com/fluidicon.png",
+    "ogImage": "https://opengraph.githubassets.com/9f980cc10d3e7b6e211680ecf1009e835564c16bdb9261beb8ba69cbd15f7119/Shivakumar-Adepu/vitals-vision",
+    "logoHref": "File saved at: attached_assets/logoHref.html"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is the main visible logo in the header, linking to the homepage, and matches the brand inferred from the URL and page title (GitHub).",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "developers and tech professionals"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0,
+    "colors": 0.9,
+    "overall": 0.45
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is the main visible logo in the header, linking to the homepage, and matches the brand inferred from the URL and page title (GitHub).",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": false,
+      "llmSucceeded": false
+    }
+  }
+}
