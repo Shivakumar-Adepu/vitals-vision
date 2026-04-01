@@ -11,6 +11,12 @@ import { sql } from 'drizzle-orm';
 const app = express();
 app.use(express.json());
 
+app.use((_req, res, next) => {
+  res.removeHeader('X-Frame-Options');
+  res.setHeader('Content-Security-Policy', "frame-ancestors *");
+  next();
+});
+
 const server = createServer(app);
 
 setupWebSocket(server);
