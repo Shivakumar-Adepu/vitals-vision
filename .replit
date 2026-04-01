@@ -10,7 +10,6 @@ channel = "stable-25_05"
 deploymentTarget = "autoscale"
 run = ["node", "--import", "tsx", "server/index.ts"]
 build = ["npm", "run", "build"]
-publicDir = "dist"
 
 [workflows]
 runButton = "Project"
